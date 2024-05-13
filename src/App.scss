@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.home{
+    display: flex;
+    position: relative;
+    .nav{
+        width: 50px;
+        height: 100vh;
+        position: fixed;
+        z-index: 1;
+    }
+    .main{
+        width: calc(100vw - 67px);
+        position: relative;
+        left: 50px;
+        right: 0;
+        background-color: #111111;
+        .header{
+            width: calc(100% - 67px);
+            position: fixed;
+            z-index: 1;
+        }
+        section{
+            width: calc(100vw - 67px);
+            height: 100vh;
+            position: relative;
+            right: 0;
+        }
+        #projects{
+            width: calc(100vw - 67px);
+            height: auto;
+        }
+    }
+}

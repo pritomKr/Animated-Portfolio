@@ -1,0 +1,92 @@
+.box{
+    width: 48%;
+    height: 440px;
+    margin-top: 4vh;
+    .top_box{
+        width: 100%;
+        height: 260px;
+        background-color: #232323;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        overflow: hidden;
+        .img_box{
+            position: absolute;
+            bottom: -20px;
+            width: 83%;
+            height: 225px;
+            background-color: #FFFFFF;
+            border-radius: 7px;
+            transition: width 0.3s ease, height 0.3s ease, transform 0.3s ease;
+        }
+    }
+    .top_box:hover{
+        .img_box{
+            width: 87%;
+            height: 240px;
+            transform: rotate(2deg);
+        }
+    }
+    .bottom_box{
+        width: 100%;
+        height: 180px;
+        display: flex;
+        flex-direction: column;
+        .bottom_header{
+            width: 100%;
+            height: 30%;
+            display: flex;
+            align-items: center;
+            .name{
+                flex: 0 0 auto;
+                font-size: 20px;
+                font-weight: 800;
+                color: white;
+            }
+            .line{
+                flex-grow: 1;
+                display: flex;
+                justify-content: center;
+                .l{
+                    width: 92%;
+                    border-bottom: 2px solid #535355;
+                }
+            }
+            .link{
+                flex: 0 0 auto;
+                display: flex;
+                gap: 8px;
+                a{
+                    svg{
+                        width: 26px;
+                        height: 26px;
+                        color: #535355;
+                    }
+                    svg:hover{
+                        color: #EBECF3;
+                    }
+                }
+            }
+        }
+        .bottom_content{
+            width: 100%;
+            height: 70%;
+            .tech_stack{
+                color: #0AFF9D;
+                font-size: 18px;
+                font-weight: 600;
+                margin-bottom: 3px;
+            }
+            .content{
+                color: white;
+                font-size: 18px;
+                font-weight: 400;
+                .learn_more{
+                    color: #0AFF9D;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+    
+}

@@ -1,0 +1,178 @@
+.contact{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    .contact_container{
+        width: 50%;
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 25vh;
+        .contact_header{
+            width: 100%;
+            height: 39%;
+            margin-bottom: 1%;
+            overflow: hidden;
+            font-size: 4.8vw;
+            .header{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                h1{
+                    
+                    font-weight: 900;
+                    color: white;
+                    span{
+                        color: #0AFF9D;
+                    }
+                }
+            }
+        }
+        .contact_content{
+            width: 100%;
+            height: 39%;
+            margin-bottom: 1%;
+            overflow: hidden;
+            font-size: 1.2vw;
+            .content{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                p{
+                    width: 85%;
+                    color: white;
+                    text-align: center;
+                    span{
+                        color: #0AFF9D;
+                    }
+                }
+            }
+        }
+        .contact_footer{
+            width: 100%;
+            height: 25%;
+            overflow: hidden;
+            font-size: 1.4vw;
+            .footer{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: flex-start;
+                .footer_items{
+                    display: flex;
+                    align-items: center;
+                    color: white;
+                    transition: all 0.3 linear;
+                    svg{
+                        width: 30px;
+                        height: 24px;
+                        margin-right: 5px;
+                        margin-top: 5px;
+                    }
+                    p{
+                        font-weight: 700;
+                        text-align: center;
+                    }
+                }
+                .footer_items:hover{
+                    color:#0AFF9D;
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 1470px){
+    .contact{
+        .contact_container{
+            width: 60%;
+            .contact_header{
+                font-size: 60px;
+            }
+            .contact_content{
+                font-size: 16px;
+            }
+            .contact_footer{
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1080px){
+    .contact{
+        .contact_container{
+            width: 60%;
+            .contact_header{
+                font-size: 60px;
+            }
+            .contact_content{
+                font-size: 16px;
+            }
+            .contact_footer{
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+@media (max-width: 860px){
+    .contact{
+        .contact_container{
+            width: 70%;
+            .contact_header{
+                font-size: 60px;
+            }
+            .contact_content{
+                font-size: 16px;
+            }
+            .contact_footer{
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+
+
+@media (max-width: 600px){
+    .contact{
+        .contact_container{
+            width: 85%;
+            .contact_header{
+                font-size: 50px;
+            }
+            .contact_content{
+                font-size: 15px;
+            }
+            .contact_footer{
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 450px){
+    .contact{
+        .contact_container{
+            width: 90%;
+            .contact_header{
+                font-size: 45px;
+            }
+            .contact_content{
+                font-size: 13px;
+            }
+            .contact_footer{
+                font-size: 13px;
+            }
+        }
+    }
+}
